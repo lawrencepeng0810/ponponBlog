@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "澎澎的生活日記",
+  description: "生活點滴",
   base: "/ponponBlog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
