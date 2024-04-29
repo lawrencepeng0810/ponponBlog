@@ -5,12 +5,19 @@ export default defineConfig({
   title: "澎澎的生活日記",
   description: "生活點滴",
   base: "/ponponBlog/",
+  srcDir:'docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    nav:[
+      {text:'首頁',link:'/'},
+      {
+        text:'致自己',
+        items:[{
+                text:'致自己',
+                link:'/myself/index'
+            }]
+      }
+     ],
 
     sidebar: [
       {
