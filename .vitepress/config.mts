@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.mts'
-
+import nav from './nav.mts'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "澎澎的生活日記",
@@ -9,16 +9,24 @@ export default defineConfig({
   srcDir:'docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav:[
-      {text:'首頁',link:'/'},
-      {
-        text:'致自己',
-        items:[{
-                text:'致自己',
-                link:'/myself/index'
-            }]
-      }
-     ],
+    nav: nav,
+    // nav:[
+    //   { text:'首頁',link:'/' },
+    //   {
+    //     text:'致自己',
+    //     items:[
+    //         {
+    //             text:'致自己',
+    //             link:'/myself/index'
+    //         },
+    //         // {
+    //         //   text:'致自己b',
+    //         //   link:'/myself/index'
+    //         // }
+    //     ],
+    //     activeMatch: '/myself'
+    //   }
+    //  ],
      sidebar: sidebar,
     // sidebar: [
     //   {
