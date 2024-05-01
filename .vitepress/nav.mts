@@ -5,13 +5,13 @@ export default [
         items:[
             {
                 text:'致自己',
-                link:'/myself/index'
+                link:'/about/index'
             },
             // {
             //   text:'致自己b',
             //   link:'/myself/index'
             // }
         ],
-        activeMatch: '/myself'      
+        activeMatch: '/about'      
     }
 ];

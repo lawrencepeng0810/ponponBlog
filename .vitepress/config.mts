@@ -3,7 +3,7 @@ import sidebar from './sidebar.mts'
 import nav from './nav.mts'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "澎澎的生活日記",
+  title: "澎澎爸的生活日記",
   description: "生活點滴",
   base: "/ponponBlog/",
   srcDir:'docs',
