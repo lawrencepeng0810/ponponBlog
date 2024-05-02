@@ -10,15 +10,15 @@ hero:
   #   src: https://avatars.githubusercontent.com/u/12478350?v=4
   #   alt: VitePress
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    # - theme: brand
+    #   text: Markdown Examples
+    #   link: /markdown-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
     - theme: alt
       text: About Me
-      link: /api-examples
+      link: ./about/aboutme
 
 features:
   - icon: 🌈
@@ -32,13 +32,13 @@ features:
     title: 程式軟體
     details: 理性的感受下淬煉成自己成長
   - icon: 💡
-    title: 植栽
-    details: 愛上植物
-    link: /plant/index
-  - icon: 💡
-    title: 有感而發
-    details: 主觀?客觀角度看待社會上種種議題
-    link: /系統課程/index
+    title: 日常
+    details: 日常生活細節
+    link: /daily/index
+  # - icon: 💡
+  #   title: 有感而發
+  #   details: 主觀?客觀角度看待社會上種種議題
+  #   link: /系統課程/index
 ---
 
 ``` JS
